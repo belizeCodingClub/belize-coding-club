@@ -33,18 +33,18 @@
 .Meetup-date-box {
   background-color: #20232a;
   max-width: 400px;
-    height: 120px;
-    flex: 1 1 auto;
-    flex-basis: 25%;
-    border-radius: 4px;
-    display: flex;
-    flex-direction: column;
-    padding: 0.2em 1.5em 1em;
-    box-shadow: 1px 1px 10px 0px rgb(0 0 0 / 10%);
-    margin-left: 5px;
-    margin-right: 5px;
-    justify-content: center;
-    align-items: center;
+  height: 120px;
+  flex: 1 1 auto;
+  flex-basis: 25%;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  padding: 0.2em 1.5em 1em;
+  box-shadow: 1px 1px 10px 0px rgb(0 0 0 / 10%);
+  margin-left: 5px;
+  margin-right: 5px;
+  justify-content: center;
+  align-items: center;
 }
 
 .Meetup-date-box h3 {

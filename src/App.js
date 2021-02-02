@@ -12,7 +12,7 @@ function App() {
         </div>
         <div className="Header-col">
           <div className="Meetup-date-box">
-            <h3>Next Virtual Meet</h3>
+            <h3>Next Virtual Meetup</h3>
             <h3>Coming Soon</h3>
           </div>
         </div>
@@ -31,39 +31,41 @@ function App() {
         </div>
         <br />
         <div className="Section" style={{ marginTop: "40px" }}>
-          <h3>Here's why you should join</h3>
+          <h2>Here's why you should join</h2>
           <div className="shadow" style={{ padding: "16px" }}>
-            <h4>Meet</h4>
+            <h3>Meet & Relate</h3>
             <p>
               Have you ever felt alone as a coder in Belize? Not too many
-              relatable people around? Joining our group will give you an
-              introduction to a bunch of relatable people just like yourself.
-              You'll meet people not only from within your district but from
-              across the country.
+              relatable people around? No one to share your ideas with? Joining
+              our group will provide you with a network of relatable people just
+              like yourself. You'll meet and interact with people not only from
+              your district but from across the entire country. How? With our
+              virtual meetups and chat groups.
             </p>
           </div>
         </div>
         <div className="Section">
           <div className="shadow" style={{ padding: "16px" }}>
-            <h4>Learn</h4>
+            <h3>Share & Learn</h3>
             <p>
-              The goal of this group is to bring people together who are
-              passionate about coding regardless of experential levels. Our
-              virtual meetings are meant to introduce people to one another,
-              talk about tech-stacks, side projects, share ideas, and much much
-              more.
+              The ultimate goal of this group is to bring people together who
+              are passionate about coding regardless of any experential
+              imbalances. Our virtual meetings are meant to introduce people to
+              one another, talk about tech-stacks, side projects, share ideas,
+              and much more. We also plan on having guest speakers from local
+              and foreign tech companies.
             </p>
           </div>
         </div>
       </div>
       <div className="join-cta text-center">
         <div className="container">
-          <h2 style={{ margin: 0 }}>Join us today</h2>
+          <h1 style={{ margin: 0 }}>Join us today</h1>
           <p style={{ margin: 0 }}>
-            You won't want to miss out on our first virtual meet so be sure to
+            You won't want to miss out on our first virtual meetup so be sure to
             click the button below and become a member today.
           </p>
-          <button className="btn" style={{ marginTop: "30px" }}>
+          <button className="btn" style={{ marginTop: "34px" }}>
             Join group (it's free)
           </button>
         </div>
