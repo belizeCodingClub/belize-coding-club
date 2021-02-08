@@ -27,7 +27,14 @@ function App() {
             exposure to people, right here in Belize, who all share an equal
             passion for all things coding and tech.
           </p>
-          <button className="btn">Join club (it's free)</button>
+          <a
+            href="https://forms.gle/m4HMPW7URcC4M9Ek7"
+            className="btn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Join club (it's free)
+          </a>
         </div>
         <br />
         <div className="Section" style={{ marginTop: "40px" }}>
@@ -67,9 +74,15 @@ function App() {
             You won't want to miss out on our first virtual meetup so be sure to
             click the button below and become a club member today.
           </p>
-          <button className="btn" style={{ marginTop: "34px" }}>
+          <a
+            href="https://forms.gle/m4HMPW7URcC4M9Ek7"
+            className="btn"
+            target="_blank"
+            rel="noreferrer"
+            style={{ marginTop: "34px" }}
+          >
             Join club (it's free)
-          </button>
+          </a>
         </div>
       </div>
     </div>

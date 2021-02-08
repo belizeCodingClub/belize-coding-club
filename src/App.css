@@ -103,14 +103,16 @@
 }
 
 .btn {
+  display:inline-block;
+  width: 100%;
   background: #61dafb;
   color: #20232a;
   padding: 20px;
   border: none;
   font-size: 22px;
   border-radius: 8px;
-  width: 100%;
-  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
 }
 
 .btn:hover, .btn:focus {
