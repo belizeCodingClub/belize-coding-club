@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <div className="App-topbar container text-center">
+      <div className="App-topbar  text-center">
         <p>
           Call or{" "}
           <a
