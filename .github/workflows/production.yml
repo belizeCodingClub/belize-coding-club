@@ -36,4 +36,4 @@ jobs:
         run: |
           npm run build
       - name: Deploy to S3
-        run: aws s3 sync build s3://${{ secrets.AWS_PRODUCTION_BUCKET_NAME }}/site --exclude ".git/*" --exclude ".github/*" --delete # have the bucket have the same content in the repo & exclude the git related directories.
+        run: aws s3 sync build s3://${{ secrets.AWS_PRODUCTION_BUCKET_NAME }} --exclude ".git/*" --exclude ".github/*" --delete # have the bucket have the same content in the repo & exclude the git related directories.
