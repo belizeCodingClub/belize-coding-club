@@ -3,6 +3,20 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+      <div className="App-topbar container text-center">
+        <p>
+          Call or{" "}
+          <a
+            href="https://wa.me/5016082077"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="App-link"
+          >
+            message 501-608-2077
+          </a>{" "}
+          to find out more details
+        </p>
+      </div>
       <header className="App-header">
         <div className="Header-left">
           <h1>belizeCodingClub</h1>
@@ -85,6 +99,13 @@ function App() {
           </a>
         </div>
       </div>
+      <footer className="text-center">
+        <div className="container">
+          <p>
+            Copyright © 2021 belizeCodingClub - Powered by coders just like you
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }
