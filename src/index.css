@@ -42,7 +42,7 @@ body {
   }
   .Header-col {
     margin-top: 30px;
-    padding: 0 30px;
+    padding: 0 20px;
   }
   .Meetup-date-box {
     max-width: 100%!important;
@@ -55,5 +55,11 @@ body {
   a.btn {
     display:inline-block;
     width: 100%!important;
+  }
+}
+
+@media (max-width: 750px) { 
+  .Meetup-date-box {
+    height: auto!important;
   }
 }
