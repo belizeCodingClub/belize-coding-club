@@ -1,3 +1,12 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,4 +22,38 @@ body {
 
 
 
+@media (max-width: 1124px) {
+  .container {
+    width: 100%!important;
+  }
+  .App-body .container, .join-cta .container {
+    padding: 20px;
+  }
+}
 
+@media (max-width: 750px) {
+  .App-header {
+    display: block!important;
+    min-height: auto!important;
+    padding-top: 40px;
+  }
+  .Header-left {
+    padding-right: 0!important;
+  }
+  .Header-col {
+    margin-top: 30px;
+    padding: 0 30px;
+  }
+  .Meetup-date-box {
+    max-width: 100%!important;
+    margin: 0!important;
+    display: block!important;
+  }
+  .Section {
+    margin-top: 0!important;
+  }
+  a.btn {
+    display:inline-block;
+    width: 100%!important;
+  }
+}

@@ -32,7 +32,7 @@ function App() {
         </div>
       </header>
 
-      <div className="App-body container">
+      <div className="App-body">
         <div className="container">
           <p style={{ paddingBottom: "20px" }}>
             Whether you're just getting into coding, already a seasoned coder,
@@ -41,43 +41,49 @@ function App() {
             exposure to people, right here in Belize, who all share an equal
             passion for all things coding and tech.
           </p>
-          <a
-            href="https://forms.gle/m4HMPW7URcC4M9Ek7"
-            className="btn"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Join club (it's free)
-          </a>
+          <div>
+            <a
+              href="https://forms.gle/m4HMPW7URcC4M9Ek7"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Join club (it's free)
+            </a>
+          </div>
         </div>
         <br />
         <div className="Section" style={{ marginTop: "40px" }}>
-          <h2>Here's why you should join</h2>
-          <div className="shadow" style={{ padding: "16px" }}>
-            <h3>Meet & Relate</h3>
-            <p>
-              Have you ever felt alone as a coder in Belize? Not too many
-              relatable people around? No one to share your ideas with? Joining
-              our club will provide you with a network of relatable people just
-              like yourself. You'll meet and interact with people not only from
-              your district but from across the entire country. How? With our
-              virtual meetups and chat groups.
-            </p>
+          <div className="container">
+            <h2>Here's why you should join</h2>
+            <div className="shadow" style={{ padding: "16px" }}>
+              <h3>Meet & Relate</h3>
+              <p>
+                Have you ever felt alone as a coder in Belize? Not too many
+                relatable people around? No one to share your ideas with?
+                Joining our club will provide you with a network of relatable
+                people just like yourself. You'll meet and interact with people
+                not only from your district but from across the entire country.
+                How? With our virtual meetups and chat groups.
+              </p>
+            </div>
           </div>
         </div>
         <div className="Section">
-          <div className="shadow" style={{ padding: "16px" }}>
-            <h3>Share & Learn</h3>
-            <p>
-              The ultimate goal of this club is to bring people together who are
-              passionate about coding regardless of their career stage or
-              current level of knowledge. Our virtual meetups are meant to
-              introduce people to one another, talk about different
-              technologies, side projects, share ideas, and much more. We also
-              plan on having guest speakers from local and foreign tech
-              companies share their experience and provide practical advice
-              about coding and all things tech.
-            </p>
+          <div className="container">
+            <div className="shadow" style={{ padding: "16px" }}>
+              <h3>Share & Learn</h3>
+              <p>
+                The ultimate goal of this club is to bring people together who
+                are passionate about coding regardless of their career stage or
+                current level of knowledge. Our virtual meetups are meant to
+                introduce people to one another, talk about different
+                technologies, side projects, share ideas, and much more. We also
+                plan on having guest speakers from local and foreign tech
+                companies share their experience and provide practical advice
+                about coding and all things tech.
+              </p>
+            </div>
           </div>
         </div>
       </div>
