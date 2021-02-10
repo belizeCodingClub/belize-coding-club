@@ -59,8 +59,8 @@ function App() {
             <div className="shadow" style={{ padding: "16px" }}>
               <h3>Meet & Relate</h3>
               <p>
-                Have you ever felt alone as a coder in Belize? Not too many
-                relatable people around? No one to share your ideas with?
+                Have you ever felt few in number as a coder in Belize? Not too
+                many relatable people around? No one to share your ideas with?
                 Joining our club will provide you with a network of relatable
                 people just like yourself. You'll meet and interact with people
                 not only from your district but from across the entire country.
