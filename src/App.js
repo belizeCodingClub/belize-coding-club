@@ -107,9 +107,7 @@ function App() {
       </div>
       <footer className="text-center">
         <div className="container">
-          <p>
-            Copyright © 2021 belizeCodingClub - Powered by coders just like you
-          </p>
+          <p>Copyright © 2021 belizeCodingClub - Powered by you</p>
         </div>
       </footer>
     </div>
