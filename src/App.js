@@ -5,16 +5,19 @@ function App() {
     <div className="App">
       <div className="App-topbar  text-center">
         <p>
-          Call or{" "}
+          <span style={{ paddingRight: 10 }}>Get in touch</span>
           <a
             href="https://wa.me/5016082077"
             target="_blank"
             rel="noopener noreferrer"
             className="App-link"
           >
-            message 501-608-2077
-          </a>{" "}
-          to find out more details
+            501-608-2077
+          </a>
+          <span style={{ marginLeft: 10, marginRight: 10 }}>|</span>
+          <a href="mailto:hello@belizecodingclub.org" className="App-link">
+            hello@belizecodingclub.org
+          </a>
         </p>
       </div>
       <header className="App-header">
