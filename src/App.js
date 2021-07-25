@@ -108,7 +108,12 @@ function App() {
       </div>
       <footer className="text-center">
         <div className="container">
-          <p>belizeCodingClub - hello@belizecodingclub.org</p>
+          <p>
+            belizeCodingClub -{" "}
+            <a href="mailto:hello@belizecodingclub.org" className="App-link">
+              hello@belizecodingclub.org
+            </a>
+          </p>
         </div>
       </footer>
     </div>
