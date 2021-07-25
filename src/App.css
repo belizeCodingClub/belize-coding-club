@@ -1,22 +1,23 @@
 .container {
-  width: 1100px;
+  width: 1000px;
   margin: 0 auto;
 }
 
-
 .App-header {
-  min-height: 50vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   text-align: center;
+  background-color: #20232a;
 }
 
-
-.App-header h1 { margin: 0; margin-bottom: 10px;}
-
+.App-header h1 {
+  margin: 0;
+  margin-bottom: 10px;
+}
 
 .App-header span {
   background-color: #61dafb;
@@ -24,17 +25,17 @@
 }
 
 .App-topbar {
-  background: #fff;
-  color: #20232a;
+  border-bottom: 1px solid #20232a;
   padding: 3px;
 }
 
-.App-topbar p{
+.App-topbar p {
   margin: 0;
 }
 
 .App-link {
   color: #61dafb;
+  text-decoration: none;
 }
 
 .Header-left {
@@ -64,7 +65,6 @@
   font-size: 30px;
 }
 
-
 .App-body {
   padding-bottom: 80px;
 }
@@ -88,9 +88,8 @@
 }
 
 .Section .shadow {
-  border-left: 1px solid #61dafb;
+  border-left: 2px solid #61dafb;
 }
-
 
 .text-center {
   text-align: center;
@@ -104,9 +103,7 @@
 
 .join-cta {
   padding: 80px 0;
-  background-color: white;
-  color: #20232a;
-
+  background-color: #20232a;
 }
 
 .join-cta .btn {
@@ -114,7 +111,7 @@
 }
 
 .btn {
-  display:inline-block;
+  display: inline-block;
   width: 100%;
   background: #61dafb;
   color: #20232a;
@@ -126,12 +123,12 @@
   text-decoration: none;
 }
 
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
   opacity: 0.9;
 }
 
-footer p{
+footer p {
   margin: 0;
   padding: 6px;
 }
-
