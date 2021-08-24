@@ -7,8 +7,8 @@ function App() {
         <p>
           <span>Get in touch with us - </span>
 
-          <a href="mailto:hello@belizecodingclub.org" className="App-link">
-            hello@belizecodingclub.org
+          <a href="mailto:rodgetech@gmail.com" className="App-link">
+            rodgetech@gmail.com
           </a>
         </p>
       </div>
@@ -111,8 +111,8 @@ function App() {
         <div className="container">
           <p>
             belizeCodingClub -{" "}
-            <a href="mailto:hello@belizecodingclub.org" className="App-link">
-              hello@belizecodingclub.org
+            <a href="mailto:rodgetech@gmail.com" className="App-link">
+              rodgetech@gmail.com
             </a>
           </p>
         </div>
